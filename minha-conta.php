@@ -34,7 +34,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2 main_navsidebar text-center vh-100 d-none d-lg-block">
+        <div class="col-md-2 main_navsidebar text-center h-auto d-none d-lg-block">
           <div class="profile_photo">
             <img src="assets/images/profile-photo.jpg" class="rounded-circle mt-4" alt="Fulano de tal">
           </div>
@@ -153,6 +153,16 @@
                   <div class="mb-3">
                     <label for="references" class="form-label">Ponto de referência</label>
                     <input type="text" class="form-control" id="references" placeholder="ex.: Próx ao supermecado">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="password_new" class="form-label">Nova senha</label>
+                    <input type="password" class="form-control" id="password_new" placeholder="********">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="password_repeat" class="form-label">Repita a senha</label>
+                    <input type="password" class="form-control" id="password_repeat" placeholder="********">
                   </div>
 
                   <div class="text-center mt-lg-8">
