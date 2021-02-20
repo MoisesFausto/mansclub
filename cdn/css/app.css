@@ -66,9 +66,6 @@
   height: 60px;
   padding: 4px;
 }
-.login_form .login_social ul li:last-child {
-  padding: 13px;
-}
 .login_form .login_social p {
   font-family: IBM Plex Sans;
   font-weight: normal;
@@ -84,6 +81,83 @@
 @media (max-width: 350px) {
   input {
     width: 100% !important;
+  }
+}
+.main_register {
+  height: 100vh;
+}
+.main_register h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: #000;
+}
+.main_register .register_social_media button {
+  width: 357px;
+  height: 78px;
+  background: linear-gradient(180deg, #0086FF 0%, rgba(255, 255, 255, 0) 100%), #005EB3;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+}
+.main_register .register_social_media button img {
+  margin-right: 22px;
+  width: 50px;
+  height: 50px;
+}
+.main_register span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #000;
+}
+.main_register form input {
+  width: 357px;
+  height: 50px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #CECECE;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+}
+.main_register form ::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+.main_register form button {
+  width: 357px;
+  height: 50px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+.main_register form p {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+.main_register form p a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 390px) {
+  button {
+    width: 100% !important;
+  }
+  button img {
+    display: none;
   }
 }
 *, *:before, *:after, *:hover, *:focus {

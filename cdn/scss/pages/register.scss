@@ -1,0 +1,94 @@
+.main_register{
+
+  height: 100vh;
+
+  h2{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+  }
+
+  .register_social_media{
+
+    button{
+      width: 357px;
+      height: 78px;
+      background: linear-gradient(180deg, #0086FF 0%, rgba(255, 255, 255, 0) 100%), #005EB3;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 50px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      color: #fff;
+
+      img{
+        margin-right: 22px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+  }
+
+  form {
+
+    input{
+      width: 357px;
+      height: 50px;
+      margin: 0 auto;
+      background: #FFFFFF;
+      border: 1px solid #CECECE;
+      box-sizing: border-box;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 32px;
+    }
+
+    ::-webkit-input-placeholder{
+      color: #A4A4A4;
+    }
+
+    button{
+      width: 357px;
+      height: 50px;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    p{
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+
+      a{
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px){
+  button{
+    width: 100% !important;
+
+    img{
+      display: none;
+    }
+  }
+}
