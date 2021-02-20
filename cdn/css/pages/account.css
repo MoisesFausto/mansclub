@@ -1,0 +1,128 @@
+.main_navbar a {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  color: #005EB3;
+}
+.main_navbar .navbar_buttons button {
+  width: 268px;
+  height: 62px;
+  border: 2px solid;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.main_account .main_navsidebar {
+  background: #F4F4F4;
+  position: relative;
+}
+.main_account .main_navsidebar ul {
+  position: absolute;
+  width: 102%;
+  left: 0;
+}
+.main_account .main_navsidebar ul li {
+  height: 50px;
+  background: #005EB3;
+  margin-bottom: 25px;
+}
+.main_account .main_navsidebar ul li:first-child {
+  background: #FF9E00;
+}
+.main_account .main_navsidebar ul li a {
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.main_account .main_navsidebar_mobile {
+  position: fixed;
+  top: 5px;
+}
+.main_account .main_navsidebar_mobile .collapse.navbar-collapse {
+  background: #F4F4F4;
+  text-align: left;
+  padding: 10px 20px;
+}
+.main_account .main_navsidebar_mobile .collapse.navbar-collapse a {
+  padding: 10px 15px;
+}
+.main_account .main_navsidebar_mobile .collapse.navbar-collapse a:first-child {
+  background: #FF9E00;
+  color: #fff;
+}
+.main_account .my_account {
+  background: #F4F4F4;
+}
+.main_account .my_account h3 {
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  color: #000;
+  margin: 0;
+}
+.main_account .my_account span {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000;
+}
+.main_account .my_account label {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000;
+  vertical-align: -webkit-baseline-middle;
+}
+.main_account .my_account label.form-check-label {
+  margin-left: 6px;
+}
+.main_account .my_account input[type=text],
+.main_account .my_account input[type=number],
+.main_account .my_account input[type=tel],
+.main_account .my_account input[type=email],
+.main_account .my_account input[type=password] {
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #CECECE;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.main_account .my_account input[type=radio] {
+  width: 30px !important;
+  height: 30px;
+  background: #FFFFFF;
+  border: 2px solid #CECECE;
+  margin-bottom: 16px;
+}
+.main_account .my_account button {
+  width: 357px;
+  height: 50px;
+  border: 1px solid #000000;
+}
+.main_account .my_account .account_delete {
+  background: #fff;
+}
+.main_account .my_account .account_delete p {
+  font-size: 18px;
+  line-height: 23px;
+}
+.main_account .my_account .account_delete p:last-child {
+  font-size: 16px;
+  line-height: 21px;
+}
+.main_account .my_account .account_delete a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000AFF;
+}
+
+/*# sourceMappingURL=account.css.map */

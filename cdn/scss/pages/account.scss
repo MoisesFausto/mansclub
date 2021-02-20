@@ -1,0 +1,157 @@
+.main_navbar{
+
+  a{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: #005EB3;
+  }
+
+  .navbar_buttons{
+
+    button{
+      width: 268px;
+      height: 62px;
+      border: 2px solid;
+      color: #fff;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+    }
+  }
+
+}
+
+.main_account{
+
+  .main_navsidebar{
+
+    background: #F4F4F4;
+    position: relative;
+
+    ul{
+      position: absolute;
+      width: 102%;
+      left: 0;
+    }
+    ul li{
+      height: 50px;
+      background: #005EB3;
+      margin-bottom: 25px;
+    }
+    ul li:first-child{
+      background: #FF9E00;
+    }
+    ul li a{
+      padding: 12px 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+  }
+
+  .main_navsidebar_mobile{
+    position: fixed;
+    top: 5px;
+
+    .collapse.navbar-collapse{
+      background: #F4F4F4;
+      text-align: left;
+      padding: 10px 20px;
+
+      a{
+        padding: 10px 15px;
+      }
+
+      a:first-child{
+        background: #FF9E00;
+        color: #fff;
+      }
+    }
+  }
+
+  .my_account{
+    background: #F4F4F4;
+
+    h3{
+      font-weight: normal;
+      font-size: 35px;
+      line-height: 45px;
+      color: #000;
+      margin: 0;
+    }
+    span{
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #000;
+    }
+
+    label{
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      color: #000;
+      vertical-align: -webkit-baseline-middle;
+    }
+
+    label.form-check-label{
+      margin-left: 6px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"]{
+      height: 50px;
+      background: #FFFFFF;
+      border: 2px solid #CECECE;
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+
+    input[type="radio"]{
+      width: 30px!important;
+      height: 30px;
+      background: #FFFFFF;
+      border: 2px solid #CECECE;
+      margin-bottom: 16px;
+    }
+
+    button{
+      width: 357px;
+      height: 50px;
+      border: 1px solid #000000;
+    }
+
+    .account_delete{
+      background: #fff;
+
+      p{
+        font-size: 18px;
+        line-height: 23px;
+      }
+      p:last-child{
+        font-size: 16px;
+        line-height: 21px;
+      }
+
+      a{
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000AFF;
+      }
+    }
+
+  }
+
+
+}
