@@ -84,7 +84,7 @@
 }
 
 @media (max-width: 390px){
-  button{
+  button:not(.navbar-toggler){
     width: 100% !important;
 
     img{

@@ -68,10 +68,10 @@
 }
 
 @media (max-width: 390px) {
-  button {
+  button:not(.navbar-toggler) {
     width: 100% !important;
   }
-  button img {
+  button:not(.navbar-toggler) img {
     display: none;
   }
 }
