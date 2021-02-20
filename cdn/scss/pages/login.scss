@@ -1,0 +1,102 @@
+.login_background{
+  height: 100vh;
+  background-image: url('../../../assets/images/background/login.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.login_form{
+  height: 100vh;
+
+  h2{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+  }
+
+  input{
+    width: 350px;
+    height: 50px;
+    padding: 22px;
+    color: #ccc;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    background: #FFFFFF;
+    border: 2px solid #CECECE;
+    box-sizing: border-box;
+  }
+  input:focus{
+    border-color: transparent;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 10%);
+  }
+
+  ::-webkit-input-placeholder{
+    color: #ccc;
+  }
+
+  button{
+    width: 175px;
+    border: 1px solid #0086FF;
+    box-sizing: border-box;
+  }
+
+  .forgot_password a{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+  }
+
+  .login_social{
+
+    h2{
+      font-size: 25px;
+      text-align: center;
+    }
+
+    ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0;
+
+      li{
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        padding: 4px;
+      }
+      li:last-child{
+        padding: 13px;
+      }
+    }
+
+    p{
+      font-family: IBM Plex Sans;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      color: #000;
+
+      a{
+        color: #000;
+        text-decoration: none;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 350px){
+  input{
+    width: 100% !important;
+  }
+}

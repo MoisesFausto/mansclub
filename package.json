@@ -1,0 +1,16 @@
+{
+  "name": "mansclub",
+  "version": "1.0.0",
+  "description": "site for local trade service publications",
+  "main": "index.js",
+  "scripts": {
+    "developer": "sass cdn/scss:cdn/css --watch",
+    "production": "sass cdn/scss:cdn/css --style=compressed"
+  },
+  "author": "Moises Fausto",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "jquery": "^3.5.1"
+  }
+}

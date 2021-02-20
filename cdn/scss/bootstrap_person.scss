@@ -1,0 +1,8 @@
+@import 'variables';
+
+$theme-colors: (
+    'my-primary': $color-primary,
+    'my-secondary': $color-secondary
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
