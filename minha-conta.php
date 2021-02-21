@@ -41,14 +41,17 @@
 
           <ul class="nav flex-column mt-7">
             <li class="nav-item">
-              <a class="nav-link active" href="#"><img src="assets/images//icons/premium.svg" alt="SEJA VIP"> SEJA
+              <a class="nav-link" href="#"><img src="assets/images//icons/premium.svg" alt="SEJA VIP"> SEJA
                 VIP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Minha conta</a>
+              <a class="nav-link active" href="#">Minha conta</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Meus serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="#">Cadastrar serviço</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">sair</a>
@@ -66,6 +69,7 @@
                 <a class="nav-link active" href="#"><img src="assets/images/icons/premium.svg" alt="SEJA VIP"> SEJA VIP</a>
                 <a class="nav-link" href="#">Minha conta</a>
                 <a class="nav-link" href="#">Meus serviços</a>
+                <a class="nav-link" href="#">Cadastrar serviço</a>
                 <a class="nav-link" href="#">sair</a>
               </div>
             </div>
@@ -191,7 +195,7 @@
   </main>
 
   <!-- scripts -->
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
 
 </body>
 

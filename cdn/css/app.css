@@ -260,7 +260,6 @@
 .main_account .my_account input[type=radio] {
   width: 30px !important;
   height: 30px;
-  background: #FFFFFF;
   border: 2px solid #CECECE;
   margin-bottom: 16px;
 }
@@ -285,6 +284,21 @@
   font-size: 18px;
   line-height: 23px;
   color: #000AFF;
+}
+
+.my_services {
+  background: #F4F4F4;
+}
+.my_services h3 {
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  color: #000;
+  margin: 0;
+}
+.my_services button,
+.my_services .collapse {
+  background: #fff;
 }
 
 *, *:before, *:after, *:hover, *:focus {
