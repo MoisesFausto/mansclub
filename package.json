@@ -4,13 +4,19 @@
   "description": "site for local trade service publications",
   "main": "index.js",
   "scripts": {
-    "developer": "sass cdn/scss:cdn/css --watch",
-    "production": "sass cdn/scss:cdn/css --style=compressed"
+    "dev-sass": "sass cdn/scss:cdn/css --watch",
+    "prod-sass": "sass cdn/scss:cdn/css --style=compressed",
+    "dev-webpack": "webpack --mode development --watch",
+    "prod-webpack": "webpack --mode production"
   },
   "author": "Moises Fausto",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.0.0-beta2",
     "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
   }
 }

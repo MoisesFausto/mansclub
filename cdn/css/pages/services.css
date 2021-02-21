@@ -1,0 +1,16 @@
+.my_services {
+  background: #F4F4F4;
+}
+.my_services h3 {
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  color: #000;
+  margin: 0;
+}
+.my_services button,
+.my_services .collapse {
+  background: #fff;
+}
+
+/*# sourceMappingURL=services.css.map */
